@@ -19,5 +19,19 @@ def line(array)
     
     array.each_with_index do |value, index|
       message += #{index.to_i+1}. #(value)
-      
-      
+  end
+    puts"#{message}
+  end
+end
+
+line(katz_deli)
+    
+def now_serving(array)
+  if array.empty?==true 
+    puts "There is nobody waiting to be served!"
+  elsif array.empty?==false 
+    puts "Currenty serving #{array.shift}."
+  end
+  
+    
+    
