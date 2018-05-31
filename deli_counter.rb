@@ -32,6 +32,6 @@ def now_serving(array)
   elsif array.empty?==false 
     puts "Currenty serving #{array.shift}."
   end
-  
+end
     
     
